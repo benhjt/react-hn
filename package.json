@@ -2,6 +2,18 @@
   "name": "hacker-news",
   "version": "0.1.0",
   "private": true,
+  "description": "React based Hacker News implementation",
+  "author": {
+    "name": "Ben Thomas",
+    "email": "benhjt@users.noreply.github.com"
+  },
+  "bugs": {
+    "url": "https://github.com/benhjt/react-hn/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/benhjt/react-hn/"
+  },
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.4.1",
