@@ -1,6 +1,11 @@
 import React from 'react';
 
-import { BrowserRouter as Router, Redirect, Route, Switch } from 'react-router-dom';
+import {
+  BrowserRouter as Router,
+  Redirect,
+  Route,
+  Switch
+} from 'react-router-dom';
 import Header from '../Header';
 import Story from '../Story';
 import User from '../User';
@@ -23,7 +28,7 @@ function App() {
         </Switch>
       </main>
     </Router>
-  )
+  );
 }
 
 export default App;
