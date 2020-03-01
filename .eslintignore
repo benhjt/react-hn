@@ -1,0 +1,12 @@
+# See https://eslint.org/docs/user-guide/configuring#eslintignore for more about ignoring files.
+
+# dependencies
+node_modules/
+
+# build
+build/
+
+# misc
+serviceWorker.js
+*.log
+*.snap
