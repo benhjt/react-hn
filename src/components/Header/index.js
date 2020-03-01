@@ -11,11 +11,7 @@ const StyledNavLink = styled(NavLink)`
 `;
 
 function Header() {
-  const isActive = (path) => {
-    return function isActive(match, location) {
-      return location.pathname.indexOf(path) !== -1;
-    };
-  };
+  const isActive = (path) => (match, location) => location.pathname.indexOf(path) !== -1;
 
   return (
     <nav>
@@ -58,7 +54,7 @@ function Header() {
         Jobs
       </StyledNavLink>
     </nav>
-  )
+  );
 }
 
 export default Header;
