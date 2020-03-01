@@ -7,12 +7,26 @@
     "name": "Ben Thomas",
     "email": "benhjt@users.noreply.github.com"
   },
-  "bugs": {
-    "url": "https://github.com/benhjt/react-hn/issues"
-  },
+  "keywords": [
+    "hacker-news",
+    "pwa",
+    "react"
+  ],
+  "homepage": "http://benhjt.github.io/react-hn",
   "repository": {
     "type": "git",
     "url": "https://github.com/benhjt/react-hn/"
+  },
+  "bugs": {
+    "url": "https://github.com/benhjt/react-hn/issues"
+  },
+  "scripts": {
+    "build": "react-scripts build",
+    "deploy": "gh-pages -d build",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "start": "react-scripts start",
+    "test": "react-scripts test"
   },
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
@@ -24,11 +38,8 @@
     "react-scripts": "3.4.0",
     "styled-components": "^5.0.1"
   },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+  "devDependencies": {
+    "gh-pages": "^2.2.0"
   },
   "eslintConfig": {
     "extends": "react-app"
